@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Links</title>
+  </head>
+  <body>
+    <h1>Links</h1>
+    <p>This example is about links and <a href="images.html">images</a>.</p>
+    <a href="#chapter-one">Go to first chapter</a>
+    <!-- Othe elements  -->
+	
+    <h2 id="chapter-one">Chapter 1</h2>
+
+    <p>There are three link types:</p>
+    <ul>
+    <!-- Add <li> elements here -->
+        <li>
+            This is absolute link: 
+            <a href="https://developer.mozilla.org/ru/docs/Web/HTML" target="_blank">
+                Mozilla Developer Network
+            </a>.
+        </li>
+        <li>
+            Relative link to  
+            <a href="misc/extras.html">
+                extras.html page
+            </a>.
+        </li>
+        <!-- It will not work now. Only in server or in docker container. -->
+        <li>Root-relative link, example, for 
+            <a href="/">
+                home page
+            </a> of our site.
+        </li>
+    </ul>
+  </body>
+</html>
